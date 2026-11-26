@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenshen | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>KENSHEN B. AGAPEN</h1>
+        <p>A second year student in University of the Cordilleras BSIT</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>Hi, I'm learning CIT14 Web Development</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <div class="about-content">
+                <img src="profile.jpg" alt="Portrait of Your Name smiling at the camera" class="profile-img">
+                <p>I'm a student studying web development. I like solving layout puzzles, making pages that work on any screen, and learning one new tool at a time. Outside of coding, I enjoy reading and sketching.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3 &amp; Flexbox</li>
+                <li>Responsive design</li>
+                <li>Git &amp; GitHub</li>
+                <li>VS Code &amp; Emmet</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Personal Blog</h3>
+                    <p>A multi-page blog with a shared stylesheet and a simple reading layout.</p>
+                </div>
+                <div class="card">
+                    <h3>Recipe Page</h3>
+                    <p>A semantic recipe page using lists, tables, and a printable layout.</p>
+                </div>
+                <div class="card">
+                    <h3>Event Landing Page</h3>
+                    <p>A responsive landing page with a sign-up form and a mobile-first design.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Name</p>
+    </footer>
+</body>
+</html>
